@@ -9,7 +9,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, UNUserNotificationCenterDele
     let retryDelay: TimeInterval = 5.0 // seconds
 
     var isStopping = false
-    var sshUserHost = "shahrood@3.77.50.122" // default, can be changed via menu
+    var sshUserHost = "user@host" // default, can be changed via menu
 
     func applicationDidFinishLaunching(_ notification: Notification) {
         print("sshuttle menu app started")
