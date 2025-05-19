@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		983E1A032DDA6F5300940BCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 983E19EC2DDA6F5100940BCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 983E19F32DDA6F5100940BCB;
+			remoteInfo = sshuttle;
+		};
+		983E1A0D2DDA6F5300940BCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 983E19EC2DDA6F5100940BCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 983E19F32DDA6F5100940BCB;
+			remoteInfo = sshuttle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		983E19F42DDA6F5100940BCB /* sshuttle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sshuttle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		983E1A022DDA6F5300940BCB /* sshuttleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sshuttleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		983E1A0C2DDA6F5300940BCB /* sshuttleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sshuttleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		983E19F62DDA6F5100940BCB /* sshuttle */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = sshuttle;
+			sourceTree = "<group>";
+		};
+		983E1A052DDA6F5300940BCB /* sshuttleTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = sshuttleTests;
+			sourceTree = "<group>";
+		};
+		983E1A0F2DDA6F5300940BCB /* sshuttleUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = sshuttleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		983E19F12DDA6F5100940BCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983E19FF2DDA6F5300940BCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983E1A092DDA6F5300940BCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		983E19EB2DDA6F5100940BCB = {
+			isa = PBXGroup;
+			children = (
+				983E19F62DDA6F5100940BCB /* sshuttle */,
+				983E1A052DDA6F5300940BCB /* sshuttleTests */,
+				983E1A0F2DDA6F5300940BCB /* sshuttleUITests */,
+				983E19F52DDA6F5100940BCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		983E19F52DDA6F5100940BCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				983E19F42DDA6F5100940BCB /* sshuttle.app */,
+				983E1A022DDA6F5300940BCB /* sshuttleTests.xctest */,
+				983E1A0C2DDA6F5300940BCB /* sshuttleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		983E19F32DDA6F5100940BCB /* sshuttle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 983E1A162DDA6F5300940BCB /* Build configuration list for PBXNativeTarget "sshuttle" */;
+			buildPhases = (
+				983E19F02DDA6F5100940BCB /* Sources */,
+				983E19F12DDA6F5100940BCB /* Frameworks */,
+				983E19F22DDA6F5100940BCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				983E19F62DDA6F5100940BCB /* sshuttle */,
+			);
+			name = sshuttle;
+			packageProductDependencies = (
+			);
+			productName = sshuttle;
+			productReference = 983E19F42DDA6F5100940BCB /* sshuttle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		983E1A012DDA6F5300940BCB /* sshuttleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 983E1A192DDA6F5300940BCB /* Build configuration list for PBXNativeTarget "sshuttleTests" */;
+			buildPhases = (
+				983E19FE2DDA6F5300940BCB /* Sources */,
+				983E19FF2DDA6F5300940BCB /* Frameworks */,
+				983E1A002DDA6F5300940BCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				983E1A042DDA6F5300940BCB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				983E1A052DDA6F5300940BCB /* sshuttleTests */,
+			);
+			name = sshuttleTests;
+			packageProductDependencies = (
+			);
+			productName = sshuttleTests;
+			productReference = 983E1A022DDA6F5300940BCB /* sshuttleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		983E1A0B2DDA6F5300940BCB /* sshuttleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 983E1A1C2DDA6F5300940BCB /* Build configuration list for PBXNativeTarget "sshuttleUITests" */;
+			buildPhases = (
+				983E1A082DDA6F5300940BCB /* Sources */,
+				983E1A092DDA6F5300940BCB /* Frameworks */,
+				983E1A0A2DDA6F5300940BCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				983E1A0E2DDA6F5300940BCB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				983E1A0F2DDA6F5300940BCB /* sshuttleUITests */,
+			);
+			name = sshuttleUITests;
+			packageProductDependencies = (
+			);
+			productName = sshuttleUITests;
+			productReference = 983E1A0C2DDA6F5300940BCB /* sshuttleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		983E19EC2DDA6F5100940BCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					983E19F32DDA6F5100940BCB = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					983E1A012DDA6F5300940BCB = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 983E19F32DDA6F5100940BCB;
+					};
+					983E1A0B2DDA6F5300940BCB = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 983E19F32DDA6F5100940BCB;
+					};
+				};
+			};
+			buildConfigurationList = 983E19EF2DDA6F5100940BCB /* Build configuration list for PBXProject "sshuttle" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 983E19EB2DDA6F5100940BCB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 983E19F52DDA6F5100940BCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				983E19F32DDA6F5100940BCB /* sshuttle */,
+				983E1A012DDA6F5300940BCB /* sshuttleTests */,
+				983E1A0B2DDA6F5300940BCB /* sshuttleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		983E19F22DDA6F5100940BCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983E1A002DDA6F5300940BCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983E1A0A2DDA6F5300940BCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		983E19F02DDA6F5100940BCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983E19FE2DDA6F5300940BCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983E1A082DDA6F5300940BCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		983E1A042DDA6F5300940BCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 983E19F32DDA6F5100940BCB /* sshuttle */;
+			targetProxy = 983E1A032DDA6F5300940BCB /* PBXContainerItemProxy */;
+		};
+		983E1A0E2DDA6F5300940BCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 983E19F32DDA6F5100940BCB /* sshuttle */;
+			targetProxy = 983E1A0D2DDA6F5300940BCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		983E1A142DDA6F5300940BCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		983E1A152DDA6F5300940BCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		983E1A172DDA6F5300940BCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = sshuttle/sshuttleDebug.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.sshuttle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		983E1A182DDA6F5300940BCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = sshuttle/sshuttle.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.sshuttle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		983E1A1A2DDA6F5300940BCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.sshuttleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sshuttle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sshuttle";
+			};
+			name = Debug;
+		};
+		983E1A1B2DDA6F5300940BCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.sshuttleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sshuttle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sshuttle";
+			};
+			name = Release;
+		};
+		983E1A1D2DDA6F5300940BCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.sshuttleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = sshuttle;
+			};
+			name = Debug;
+		};
+		983E1A1E2DDA6F5300940BCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.sshuttleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = sshuttle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		983E19EF2DDA6F5100940BCB /* Build configuration list for PBXProject "sshuttle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				983E1A142DDA6F5300940BCB /* Debug */,
+				983E1A152DDA6F5300940BCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		983E1A162DDA6F5300940BCB /* Build configuration list for PBXNativeTarget "sshuttle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				983E1A172DDA6F5300940BCB /* Debug */,
+				983E1A182DDA6F5300940BCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		983E1A192DDA6F5300940BCB /* Build configuration list for PBXNativeTarget "sshuttleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				983E1A1A2DDA6F5300940BCB /* Debug */,
+				983E1A1B2DDA6F5300940BCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		983E1A1C2DDA6F5300940BCB /* Build configuration list for PBXNativeTarget "sshuttleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				983E1A1D2DDA6F5300940BCB /* Debug */,
+				983E1A1E2DDA6F5300940BCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 983E19EC2DDA6F5100940BCB /* Project object */;
+}
