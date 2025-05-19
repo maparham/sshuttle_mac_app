@@ -45,7 +45,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, UNUserNotificationCenterDele
         print("Attempting to start sshuttle...")
         let task = Process()
         task.launchPath = "/usr/bin/env"
-        task.arguments = ["/opt/homebrew/bin/sshuttle", "-Hr", "shahrood@3.77.50.122", "0.0.0.0/0", "--dns", "--no-latency-control"]
+        task.arguments = ["/opt/homebrew/bin/sshuttle", "-Hr", "user@host", "0.0.0.0/0", "--dns", "--no-latency-control"]
 
         let pipe = Pipe()
         task.standardOutput = pipe
