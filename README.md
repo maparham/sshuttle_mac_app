@@ -11,5 +11,5 @@ A minimal tool to manage `sshuttle` VPN connections on macOS.
 - Python (backend logic)
 
 ## Why I built this
-As an expat behind censorship firewalls, I needed a quick and reliable way to reconnect `sshuttle` without breaking my focus.
+As an expat behind censorship firewalls, I needed a quick and reliable way to reconnect `sshuttle` more conveniently.
 
