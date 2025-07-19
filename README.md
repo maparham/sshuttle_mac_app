@@ -1,3 +1,15 @@
-The GUI app for MacOS shows an indicator in the top menu bar that allows starting/stopping sshuttle VPN more conveniently.
+A minimal tool to manage `sshuttle` VPN connections on macOS.
 
-Download the zip file, extract the app and run it. Onnce the indicator is up in the menu bar, set your target user@host string and start VPN.
+## Features
+- Menu bar integration (Swift)
+- Status icon for VPN state
+- Retry + reconnect logic
+- Clean system tray UX
+
+## Tech Stack
+- Swift (macOS App)
+- Python (backend logic)
+
+## Why I built this
+As an expat behind censorship firewalls, I needed a quick and reliable way to reconnect `sshuttle` without breaking my focus.
+
